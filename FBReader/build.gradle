@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "org.geometerplus.zlibrary.ui.android"
+        minSdkVersion 18
+        targetSdkVersion 26
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs 'src/main/lib/'
+        }
+    }
+}
+
+dependencies {
+    implementation project(':_ambilWarna')
+    implementation project(':_dragSortListView')
+    implementation project(':_fileChooser')
+    implementation project(':_superToasts')
+    implementation 'com.android.support:support-v4:26.0.0'
+    implementation files('libs/httpmime-4.2.5.jar')
+    implementation files('libs/nanohttpd-2.0.5.jar')
+    implementation files('libs/httpclient.jar')
+    implementation files('libs/httpcore.jar')
+}

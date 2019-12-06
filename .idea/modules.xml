@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FBReader/FBReader.iml" filepath="$PROJECT_DIR$/FBReader/FBReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_ambilWarna/_ambilWarna.iml" filepath="$PROJECT_DIR$/_ambilWarna/_ambilWarna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_dragSortListView/_dragSortListView.iml" filepath="$PROJECT_DIR$/_dragSortListView/_dragSortListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_fileChooser/_fileChooser.iml" filepath="$PROJECT_DIR$/_fileChooser/_fileChooser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_superToasts/_superToasts.iml" filepath="$PROJECT_DIR$/_superToasts/_superToasts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fbreader.iml" filepath="$PROJECT_DIR$/fbreader.iml" />
+    </modules>
+  </component>
+</project>
